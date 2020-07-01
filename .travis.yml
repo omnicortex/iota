@@ -1,8 +1,6 @@
 language: c
 sudo: required
-
-services:
-  - docker
+dist: xenial
   
 script:
   - bash run.sh
